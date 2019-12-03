@@ -6,5 +6,9 @@ class Potluck
     @dishes = []
   end
 
+  def add_dish(dish)
+    @dishes << dish
+  end
+
 
 end

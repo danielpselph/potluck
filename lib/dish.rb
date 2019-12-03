@@ -5,6 +5,5 @@ class Dish
     @name = name
     @category = category
   end
-
-
+  
 end

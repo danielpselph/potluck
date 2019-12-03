@@ -27,6 +27,7 @@ class PotluckTest < Minitest::Test
     @potluck.add_dish(@couscous_salad)
     @potluck.add_dish(@cocktail_meatballs)
     assert_equal [@couscous_salad, @cocktail_meatballs], @potluck.dishes
+    assert_equal 2, @potluck.dishes.length
   end
 
 end
