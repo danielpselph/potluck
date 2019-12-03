@@ -9,6 +9,9 @@ class PotluckTest < Minitest::Test
     @potluck = Potluck.new("7-13-18")
     @couscous_salad = Dish.new("Couscous Salad", :appetizer)
     @cocktail_meatballs = Dish.new("Cocktail Meatballs", :entre)
+    @summer_pizza = Dish.new("Summer Pizza", :appetizer)
+    @roast_pork = Dish.new("Roast Pork", :entre)
+    @candy_salad = Dish.new("Candy Salad", :dessert)
   end
 
   def test_it_exists
